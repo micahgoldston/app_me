@@ -6,9 +6,11 @@ gem 'rails', '4.0.0'
 
 
 # Use sqlite3 as the database for Active Record
+# deleting sqlite3 for heroku
+# gem 'sqlite3'
 
-gem 'sqlite3'
-
+# heroku says to replace sqlite3 with pg gem
+gem 'pg'
 
 
 # Use SCSS for stylesheets
